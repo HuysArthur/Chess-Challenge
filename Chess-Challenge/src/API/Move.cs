@@ -72,5 +72,5 @@ namespace ChessChallenge.API
 		public static bool operator !=(Move lhs, Move rhs) => !lhs.Equals(rhs);
 		public override bool Equals(object? obj) => base.Equals(obj);
 		public override int GetHashCode() => RawValue;
-	}
+    }
 }
